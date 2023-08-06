@@ -1,29 +1,45 @@
-import flask
-from flask import request
-import logging
+import schedule
+import time
+import os
+from transformers import pipeline
+import dotenv
+from openai import Configuration, OpenAIApi
 
-app = flask.Flask(__name__)
-logging.basicConfig(filename='request.log', level=logging.INFO)
+dotenv.load_dotenv()
 
-@app.before_request
-def log_request_info():
-    logging.info('Headers: %s', request.headers)
-    logging.info('Body: %s', request.get_data())
+# Creating an instance of OpenAIApi with API key from the environment variables
+openai = OpenAIApi(
+  Configuration(api_key=os.getenv('OPENAI_KEY'))
+)
 
-@app.route('/', methods=['GET'])
-def home():
-    ip = request.remote_addr
-    logging.info(f'IP: {ip}')
-    return {'message': 'Hello, World!'}
+const generateTextGPT3 = async (prompt) => {
+  try {
+    const response = await openai.createCompletion({
+      model: 'text-davinci-003',
+      prompt,
+      max_tokens: 500,
+    });
+    return response.data.choices[0].text;
+  } catch (error) {
+    console.error('Error with GPT-3:', error);
+    return null;
+  }
+};
 
-@app.route('/validate', methods=['POST'])
-def validate():
-    data = request.get_json()
-    if 'username' not in data or 'password' not in data:
-        return {'message': 'Missing username or password'}, 400
-    if len(data['username']) < 5 or len(data['password']) < 8:
-        return {'message': 'Username must be at least 8 characters'}, 400
-    return {'message': 'Valid input'}
+const generateTextGPT35Turbo = async (message) => {
+  try {
+    const response = await openai.createChatCompletion({
+      model: 'gpt-3.5-turbo',
+      messages: message,
+    });
+    return response.data.choices[0].message.content;
+  }
+};
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
+# Schedule email
+schedule.every().day.at('09:00').do(send_email, 'example@example.com')
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
