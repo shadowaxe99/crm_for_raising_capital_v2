@@ -10,7 +10,9 @@ def schedule_email(time, email):
 
 if __name__ == '__main__':
     # existing code...
-    schedule_email('09:00', 'investor@example.com')
+    time = input('Enter the time to schedule emails (24 hour format): ')
+    email = input('Enter the email to send: ')
+    schedule_email(time, email)
     while True:
         schedule.run_pending()
         time.sleep(1)
