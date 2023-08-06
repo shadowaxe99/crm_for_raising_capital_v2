@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRM for Raising Capital</title>
 </head>
 <body>
-    <h1>CRM for Raising Capital</h1>
-    <form method="POST" enctype="multipart/form-data">
-        <input type="file" name="file">
-        <input type="submit" value="Upload">
-    </form>
-    <br>
-    <form action="/send_emails" method="POST">
-        <input type="submit" value="Send Emails">
-    </form>
+    <h1>OpenAI API Interaction</h1>
+    <button id="fetchData">Generate Text</button>
+    <h2>GPT-3 Text</h2>
+    <pre id="gpt3Response"></pre>
+    <h2>GPT-3.5-Turbo Text</h2>
+    <pre id="gpt35TurboResponse"></pre>
+
+    <script>
+        document.getElementById('fetchData').addEventListener('click', async () => {
+            const response = await fetch('/generate-text');
+            const data = await response.json();
+            document.getElementById('gpt3Response').textContent = data.gpt3;
+            document.getElementById('gpt35TurboResponse').textContent = data.gpt35Turbo;
+        });
+    </script>
 </body>
 </html>

@@ -12,25 +12,11 @@ openai = OpenAIApi(
   Configuration(api_key=os.getenv('OPENAI_KEY'))
 )
 
-const generateTextGPT3 = async (prompt) => {
-  try {
-    const response = await openai.createCompletion({
-      model: 'text-davinci-003',
-      prompt,
-      max_tokens: 500,
-    });
-    return response.data.choices[0].text;
-  } catch (error) {
-    console.error('Error with GPT-3:', error);
-    return null;
-  }
-};
-
-const generateTextGPT35Turbo = async (message) => {
+const generateTextGPT35Turbo5Turbo = async (message) => {
   try {
     const response = await openai.createChatCompletion({
       model: 'gpt-3.5-turbo',
-      messages: message,
+      messages: [this.context, message],
     });
     return response.data.choices[0].message.content;
   }
