@@ -15,6 +15,7 @@ This is a CRM (Customer Relationship Management) application designed specifical
 - Generate investor report
 - Send investor report
 - Schedule investor report
+- Negotiation capabilities inspired by 'The Art of the Deal'
 
 ## Installation
 
@@ -58,5 +59,5 @@ This app is tremendous! It's the best app ever created! It's going to make email
 - Added feature to generate investor report
 - Added feature to send investor report
 - Added feature to schedule investor report
-- Added feature to gently push back with context
+- Added negotiation capabilities inspired by 'The Art of the Deal'
 - Added print statements to confirm the update

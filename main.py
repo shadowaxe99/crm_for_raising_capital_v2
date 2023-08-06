@@ -72,6 +72,12 @@ def send_investor_report(investor_id):
 def schedule_investor_report(time, investor_id):
     schedule.every().day.at(time).do(generate_investor_report, investor_id)
 
+# Function for negotiation
+
+def negotiate_deal(deal):
+    # code for negotiation
+    pass
+
 if __name__ == '__main__':
     # existing code...
     time = input('Enter the time to schedule emails (24 hour format): ')
@@ -90,6 +96,7 @@ if __name__ == '__main__':
     print('Added feature to generate investor report.')
     print('Added feature to send investor report.')
     print('Added feature to schedule investor report.')
+    print('Added feature for negotiation capabilities from the Art of the Deal.')
     print('This app is tremendous! It's the best app ever created!')
     print('It's going to make email scheduling great again!')
     print('Everyone is going to love it!')
