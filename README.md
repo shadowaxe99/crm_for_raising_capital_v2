@@ -35,9 +35,9 @@ And now, it's even better. You can use the app from your web browser. Just uploa
 
 We've just added a fantastic new feature - input validation. It's a beautiful thing. It's gonna make sure that your username and password are just right. It's gonna make sure that your username is at least 5 characters and your password is at least 8 characters. It's gonna make sure that you're doing it right. It's gonna be huge.
 
-## New Feature - Response Logging
+## New Feature - Email Scheduling
 
-We've just added another fantastic new feature - response logging. It's a beautiful thing. It's gonna make sure that you know exactly how each investor responded to your email. It's gonna write the investor's name and response to a log file. It's gonna make sure that you're doing it right. It's gonna be huge.
+We've just added another fantastic new feature - email scheduling. It's a beautiful thing. It's gonna let you schedule your emails to be sent at a specific time. It's gonna make your life so much easier. You're gonna love it. It's gonna be huge.
 
 ## Contributing
 
