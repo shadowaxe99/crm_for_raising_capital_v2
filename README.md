@@ -31,6 +31,10 @@ You can upload a CSV file with investor details. The app will use the power of A
 
 And now, it's even better. You can use the app from your web browser. Just upload your CSV file, and click 'Send Emails'. It's that easy. It's fantastic.
 
+## New Feature - Input Validation
+
+We've just added a fantastic new feature - input validation. It's a beautiful thing. It's gonna make sure that your username and password are just right. It's gonna make sure that your username is at least 5 characters and your password is at least 8 characters. It's gonna make sure that you're doing it right. It's gonna be huge.
+
 ## Contributing
 
 If you want to make this app even better, just send me a pull request. I love pull requests. They're fantastic.
@@ -40,7 +44,5 @@ If you want to make this app even better, just send me a pull request. I love pu
 This project is licensed under the MIT License. It's a very fair license, believe me.
 
 ## More Details
-
-We've just made this app even better, folks. We've added a new feature that validates your input. It's fantastic. It checks your username and password to make sure they're long enough. If they're not, it tells you. It's like having your own personal security guard. It's gonna make using this app so much safer. You're gonna love it. It's gonna be huge.
 
 This app is a game changer. It's like nothing you've ever seen before. It uses the power of AI to send personalized emails to investors. It's incredible. It's like having your own personal assistant, but even better. It's like having the best negotiator in the world on your team. It's gonna make raising capital so much easier. You're gonna love it. It's gonna be huge.
