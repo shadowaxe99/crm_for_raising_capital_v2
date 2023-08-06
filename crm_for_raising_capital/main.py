@@ -17,5 +17,10 @@ def error_route():
         logging.error(str(e))
         return 'An error occurred, check the logs!'
 
+@app.route('/new')
+def new_route():
+    logging.info('New route was accessed')
+    return 'This is a new route!'
+
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
