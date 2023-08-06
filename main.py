@@ -25,8 +25,8 @@ def send_email(to, cc, bcc, subject, body, send_date=None):
 
 
 def log_response(investor, response):
-    # TODO: Implement this function
-    pass
+    with open('response.log', 'a') as f:
+        f.write(f"{investor['Name']}: {response}\n")
 
 
 def main(file: str):
