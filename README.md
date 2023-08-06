@@ -29,6 +29,8 @@ Then, go to your web browser and visit `http://localhost:5000`. It's a very nice
 
 You can upload a CSV file with investor details. The app will use the power of AI to send personalized emails to these investors. It's incredible. It's like having your own personal assistant, but even better. It's like having the best negotiator in the world on your team. It's gonna make raising capital so much easier. You're gonna love it. It's gonna be huge.
 
+And now, it's even better. You can use the app from your web browser. Just upload your CSV file, and click 'Send Emails'. It's that easy. It's fantastic.
+
 ## Contributing
 
 If you want to make this app even better, just send me a pull request. I love pull requests. They're fantastic.
