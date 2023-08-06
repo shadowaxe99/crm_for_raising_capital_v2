@@ -29,6 +29,9 @@ def auto_reply(reply):
     if 'yes' in reply.lower():
         send_thank_you_note()
         send_calendly_link()
+    elif 'no' in reply.lower():
+        # code to generate reply
+        pass
 
 
 def schedule_email(time, email):
