@@ -12,16 +12,6 @@ openai = OpenAIApi(
   Configuration(api_key=os.getenv('OPENAI_KEY'))
 )
 
-const generateTextGPT35Turbo5Turbo = async (message) => {
-  try {
-    const response = await openai.createChatCompletion({
-      model: 'gpt-3.5-turbo',
-      messages: [this.context, message],
-    });
-    return response.data.choices[0].message.content;
-  }
-};
-
 
 # Schedule email
 schedule.every().day.at('09:00').do(send_email, 'example@example.com')
