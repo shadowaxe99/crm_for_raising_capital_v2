@@ -3,12 +3,15 @@ import logging
 
 app = Flask(__name__)
 
-logging.basicConfig(filename='app.log', level=logging.INFO)
+logging.basicConfig(filename='request.log', level=logging.INFO)
+
+@app.before_request
+def log_request_info():
+    app.logger.info('Headers: %s', request.headers)
+    app.logger.info('Body: %s', request.get_data())
 
 @app.route('/')
-def home():
-    client_ip = request.remote_addr
-    app.logger.info('Client IP: %s', client_ip)
+def hello_world():
     return 'Hello, World!'
 
 if __name__ == '__main__':
