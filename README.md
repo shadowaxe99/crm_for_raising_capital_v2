@@ -2,6 +2,8 @@
 
 This is a simple CRM system for raising capital. It's gonna be huge, believe me. We've made some terrific updates to this system. We've added a feature to schedule emails. It's fantastic. You just input the time and the email to send, and it does it. It's that simple. It's like magic, but real. We've also added a print statement to confirm the update. It's a beautiful print statement. You're gonna love it.
 
+We've added user input validation and error prevention. It's a big deal. It's gonna make this system so much better. And we've added a feature to log investor responses. It's a game changer. You're gonna be able to see exactly what's going on. It's transparency like you've never seen before.
+
 ## Installation
 
 To install the necessary libraries, run the following command:

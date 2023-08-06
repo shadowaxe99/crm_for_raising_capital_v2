@@ -26,3 +26,4 @@ if __name__ == '__main__':
     print('Added user input validation and error prevention.')
     print('Added feature to log investor responses.')
     print('Added feature to ask for temperature and maximum tokens only once.')
+    print('Added feature to ask for temperature and maximum tokens only once.')
