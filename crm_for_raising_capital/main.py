@@ -1,6 +1,4 @@
 import logging
-from flask import Flask
-from datetime import datetime
 
 logging.basicConfig(filename='app.log', level=logging.INFO)
 
@@ -19,10 +17,15 @@ def error_route():
         logging.error(str(e))
         return 'An error occurred, check the logs!'
 
-@app.route('/time')
-def server_time():
-    current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    return 'Current server time is: ' + current_time
+@app.route('/new')
+def new_route():
+    logging.info('New route was accessed')
+    return 'This is a new route!'
+
+@app.route('/trump')
+def trump_route():
+    logging.info('Trump route was accessed')
+    return 'This is the best route, everybody says so!'
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
