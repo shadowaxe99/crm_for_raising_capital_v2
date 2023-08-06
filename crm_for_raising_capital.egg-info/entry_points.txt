@@ -1,0 +1,2 @@
+[console_scripts]
+crm_for_raising_capital = main:main

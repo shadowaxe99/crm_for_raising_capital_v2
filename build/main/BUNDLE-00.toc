@@ -1,0 +1,3 @@
+([('main',
+   '/Users/michaelgruen/Desktop/crm_for_raising_capital/dist/main',
+   'EXECUTABLE')],)

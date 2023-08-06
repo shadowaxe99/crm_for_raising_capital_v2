@@ -1,0 +1,7 @@
+setup.py
+crm_for_raising_capital.egg-info/PKG-INFO
+crm_for_raising_capital.egg-info/SOURCES.txt
+crm_for_raising_capital.egg-info/dependency_links.txt
+crm_for_raising_capital.egg-info/entry_points.txt
+crm_for_raising_capital.egg-info/requires.txt
+crm_for_raising_capital.egg-info/top_level.txt
