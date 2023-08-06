@@ -30,7 +30,7 @@ def auto_reply(reply):
         send_thank_you_note()
         send_calendly_link()
     elif 'no' in reply.lower():
-        # code to generate reply
+        # code to generate GPT reply
         pass
 
 
