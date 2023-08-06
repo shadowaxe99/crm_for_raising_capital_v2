@@ -78,11 +78,18 @@ def negotiate_deal(deal):
     # code for negotiation
     pass
 
+# Function to automate investor updates
+
+def automate_investor_updates():
+    # code to automate investor updates
+    pass
+
 if __name__ == '__main__':
     # existing code...
     time = input('Enter the time to schedule emails (24 hour format): ')
     email = input('Enter the email to send: ')
     schedule_email(time, email)
+    automate_investor_updates()
     while True:
         schedule.run_pending()
         time.sleep(1)
