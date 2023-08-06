@@ -15,12 +15,6 @@ def send_email(email):
     pass
 
 
-def auto_reply(reply):
-    if 'yes' in reply.lower():
-        send_thank_you_note()
-        send_calendly_link()
-
-
 def send_thank_you_note():
     # code to send thank you note
     pass
@@ -31,7 +25,11 @@ def send_calendly_link():
     pass
 
 
-classifier = pipeline('sentiment-analysis')
+def auto_reply(reply):
+    if 'yes' in reply.lower():
+        send_thank_you_note()
+        send_calendly_link()
+
 
 def schedule_email(time, email):
     schedule.every().day.at(time).do(send_email, email)
