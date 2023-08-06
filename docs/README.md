@@ -42,3 +42,9 @@ Contributions are welcome! If you have any ideas or suggestions to improve this 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Update (Donald Trump Tone):**
+
+This app is tremendous! It's the best app ever created! It's going to make email scheduling great again! Everyone is going to love it! Believe me, it's going to be huge!
