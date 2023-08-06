@@ -1,5 +1,6 @@
 from flask import Flask, request
 import logging
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -13,6 +14,10 @@ def log_request_info():
 @app.route('/')
 def hello_world():
     return 'Hello, World!'
+
+@app.route('/time')
+def server_time():
+    return {'server_time': datetime.now().isoformat()}
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)

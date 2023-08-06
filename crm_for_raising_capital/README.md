@@ -8,6 +8,7 @@ This is a fantastic, tremendous application. It's just great. Everybody says so.
 - Added error handling to email sending process. This is a big one folks, a really big one. It's going to make things so much better, you won't believe it.
 - Added a new route. This is a game changer, folks. It's going to make the app so much more versatile. You're going to love it.
 - Added a feature to display the server's current time. This is a fantastic feature, folks. It's going to help with debugging and understanding the server's timezone. It's just great.
+- Added a feature to log the client's IP address. This is a big one, folks. It's going to help with tracking and understanding application usage. It's just tremendous.
 
 ## Running the app
 
