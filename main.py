@@ -1,7 +1,10 @@
 import schedule
 import time
+from transformers import pipeline
 
 # existing code...
+
+classifier = pipeline('sentiment-analysis')
 
 def schedule_email(time, email):
     schedule.every().day.at(time).do(send_email, email)
@@ -26,4 +29,4 @@ if __name__ == '__main__':
     print('Added user input validation and error prevention.')
     print('Added feature to log investor responses.')
     print('Added feature to ask for temperature and maximum tokens only once.')
-    print('Added feature to ask for temperature and maximum tokens only once.')
+    print('Added feature for auto-reply to all replies.')
