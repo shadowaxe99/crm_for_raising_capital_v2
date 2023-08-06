@@ -1,15 +1,18 @@
 # CRM for Raising Capital
 
-This is a CRM (Customer Relationship Management) application designed specifically for raising capital. It helps manage investor responses, send emails, schedule emails, and automatically reply to positive responses.
+This is a CRM (Customer Relationship Management) application designed specifically for raising capital. It helps manage investor responses, send emails, schedule emails, automatically reply to positive responses, analyze sentiment, update investor profiles, generate investor reports, and send investor reports.
 
 ## Features
 
 - Log investor responses
 - Send emails
 - Schedule emails
-- Send thank you notes
-- Send Calendly links
 - Automatically reply to positive responses
+- Analyze sentiment
+- Update investor profiles
+- Generate investor reports
+- Send investor reports
+- Schedule investor reports
 
 ## Installation
 
@@ -25,6 +28,11 @@ This is a CRM (Customer Relationship Management) application designed specifical
 4. Send emails
 5. Schedule emails
 6. Automatically reply to positive responses
+7. Analyze sentiment
+8. Update investor profiles
+9. Generate investor reports
+10. Send investor reports
+11. Schedule investor reports
 
 ## License
 
