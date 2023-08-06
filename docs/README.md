@@ -1,6 +1,6 @@
 # CRM for Raising Capital
 
-This is a CRM (Customer Relationship Management) application designed specifically for raising capital. It helps manage investor interactions, schedule emails, and analyze investor sentiment.
+This is a CRM (Customer Relationship Management) application designed specifically for raising capital. It helps manage investor interactions, schedule emails, analyze investor sentiment, update investor profiles, generate investor reports, and more.
 
 ## Features
 
@@ -48,3 +48,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Update (Donald Trump Tone):**
 
 This app is tremendous! It's the best app ever created! It's going to make email scheduling great again! Everyone is going to love it! Believe me, it's going to be huge!
+
+**New Features:**
+
+- Added user input validation and error prevention
+- Added feature to log investor responses
+- Added feature to analyze sentiment
+- Added feature to update investor profile
+- Added feature to generate investor report
+- Added feature to send investor report
+- Added feature to schedule investor report
+- Added feature to gently push back with context
