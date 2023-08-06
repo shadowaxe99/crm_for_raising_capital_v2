@@ -38,3 +38,7 @@ If you want to make this app even better, just send me a pull request. I love pu
 ## License
 
 This project is licensed under the MIT License. It's a very fair license, believe me.
+
+## More Details
+
+This app is a game changer. It's like nothing you've ever seen before. It uses the power of AI to send personalized emails to investors. It's incredible. It's like having your own personal assistant, but even better. It's like having the best negotiator in the world on your team. It's gonna make raising capital so much easier. You're gonna love it. It's gonna be huge.
